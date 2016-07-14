@@ -7,5 +7,4 @@ package com.itheima.zhangjian.config;
  */
 public interface NetWorkImpl {
 
-
 }

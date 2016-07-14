@@ -8,7 +8,6 @@ import android.widget.Toast;
 
 import com.itheima.zhangjian.config.BaseActivity;
 import com.itheima.zhangjian.config.BaseNetActivity;
-import com.itheima.zhangjian.network.neturl.BaseManagerType;
 
 /**
  * 作者:ZHANGJIAN  on 2016/7/14.
@@ -38,7 +37,6 @@ public class HomeActivity extends BaseNetActivity {
 
     @Override
     public void afterOnCreate(Bundle bundle) {
-        getManager(BaseManagerType.MODEL1);
         mButton.setOnClickListener(this);
     }
 
