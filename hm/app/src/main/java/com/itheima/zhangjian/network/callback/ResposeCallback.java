@@ -3,7 +3,7 @@ package com.itheima.zhangjian.network.callback;
 /**
  * 作者：ZHANGJ   on 16/5/6
  * 邮箱：anddevelopment@sina.com
- * 说明：用于处理数据返回
+ * 说明：用于UI层数据的回调
  */
 public interface ResposeCallback {
 

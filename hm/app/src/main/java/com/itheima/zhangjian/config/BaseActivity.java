@@ -7,7 +7,7 @@ import android.view.View;
 /**
  * 作者:ZHANGJIAN  on 2016/7/14.
  * 邮箱:zhangjian1@itcast.cn
- * 说明:UI基类
+ * 说明:第二层UI相关配置基类
  */
 public abstract class BaseActivity extends Activity implements  ActivityImpl,View.OnClickListener{
 

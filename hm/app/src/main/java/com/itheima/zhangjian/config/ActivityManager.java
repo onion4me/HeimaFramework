@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 作者:ZHANGJIAN  on 2016/7/14.
  * 邮箱:zhangjian1@itcast.cn
- * 说明:
+ * 说明:Activity管理器
  */
 public class ActivityManager {
 
