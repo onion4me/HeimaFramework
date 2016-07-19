@@ -24,4 +24,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.navercorp.volleyextensions:volley-views:2.0.1'
     compile 'com.netflix.feign:feign-gson:8.17.0'
+    compile 'com.jakewharton:butterknife:8.2.1'
 }

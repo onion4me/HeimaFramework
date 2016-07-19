@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
+import butterknife.ButterKnife;
+
 /**
  * 作者:ZHANGJIAN  on 2016/7/14.
  * 邮箱:zhangjian1@itcast.cn
@@ -31,5 +33,7 @@ public abstract class BaseActivity extends Activity implements  ActivityImpl,Vie
          * 将实现类填装到ActivityManager自定义栈
          */
         ActivityManager.addView(getThis());
+
+        ButterKnife.bind(getThis());
     }
 }
